@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "mlops-stack-assessment"
+version = "0.1.0"
+description = ""
+authors = ["Ana Villalba <ana.villalba@elastic.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+zenml = {extras = ["server"], version = "^0.67.0"}
+matplotlib = "^3.9.2"
+scikit-learn = "1.5.2"
+pandas = "^2.2.3"
+flask = "^3.0.3"
+transformers = "^4.45.2"
+datasets = "^3.0.1"
+torch = "2.4.1"
+evaluate = "^0.4.3"
+ruff = "^0.6.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
